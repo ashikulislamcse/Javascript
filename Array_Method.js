@@ -27,3 +27,12 @@ const numbers3 = [1,2,3,4,5];
 
 const sum = numbers3.reduce((x,y)=> x+y,0)
 console.log(sum)
+
+
+//find() Method
+
+const numbers4 =[1,2,3,4,5,6];
+const firstevan = numbers4.find((number)=>{
+    return number%2===0;
+});
+console.log(firstevan);
