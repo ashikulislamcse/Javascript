@@ -36,3 +36,12 @@ const firstevan = numbers4.find((number)=>{
     return number%2===0;
 });
 console.log(firstevan);
+
+//findEndex() Methods
+
+const numbers5 = [1,3,6,4,5,6];
+
+const firstEvanIndex = numbers5.findIndex((number) => {
+  return number%2 === 0;
+});
+console.log(firstEvanIndex);
