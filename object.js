@@ -5,3 +5,11 @@ const person = {
 }
 
 console.log(person.name);
+
+
+const Students = {
+    name:"Ashikul",
+    roll:"600817"
+}
+console.log(Students.name);
+console.log(Students.roll);
