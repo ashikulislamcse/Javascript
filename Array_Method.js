@@ -1,7 +1,12 @@
 
 
 // map Method
+const Number = [1,2,3,4,5,6,7];
 
+const Double = Number.map((num)=>{
+  return (num*2);
+});
+console.log(Double);
 
 
 
