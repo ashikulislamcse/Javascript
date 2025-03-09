@@ -2,12 +2,7 @@
 
 // map Method
 
-const numbers1 = [1,3,5,7,9];
 
-const double = numbers1.map((number)=>{
-   return (number*2);
-});
-console.log(double);
 
 
 //Filter Method
