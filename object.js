@@ -1,10 +1,12 @@
 const person = {
-    name: "Ashikul Islam",
+    fname: "Ashikul",
+    lname:"Islam",
     age:20,
     isStudent: true,
 }
 
-console.log(person.name);
+console.log(person.fname);
+console.log(person.lname);
 console.log(person.age);
 console.log(person.isStudent);
 
